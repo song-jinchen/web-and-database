@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+}
+
+.post-time {
+    color: grey;
+    font-weight: bold;
+}
+/* .post-content {
+   color:red;
+   
+}
+.post-content {
+    color:blue;
+    
+ } */
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.controls {
+    width: 240px;
+}
+
+h1,h2,h3 {
+    font-family: serif;
+}
+
+#mcount {
+    background-color: cornflowerblue;
+    font-size: 3em;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#posts {
+    border: 1px solid darkseagreen;
+    padding: 10px;
+    margin: 0px 10px 10px 150px;
+    min-height: 100px;
+}
+
+hr {
+    clear: both;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* // function click_post() {
+    //     var input = document.getElementsByTagName("textarea");
+    //     console.log(input[0].value);
+    //     var posts = document.getElementById("posts");
+    //     var div1 = document.createElement('div');
+    //     var div2 = document.createElement('div');
+    //     posts.appendChild(div1);
+    //     posts.appendChild(div2);
+    //     var divs = posts.getElementsByTagName("div");
+    //     divs[0].innerHTML = new Date();
+    //     divs[0].style.color = "grey";
+    //     divs[0].classList.add("bold");
+    //     divs[1].innerHTML = input[0].value;
+    
+    //     // document.getElementById('date'). innerHTML = new Date();
+    //     // posts.innerHTML = input[0].value;
+    // }
+     */
